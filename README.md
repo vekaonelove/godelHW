@@ -8,7 +8,8 @@
    - Java-17
    - Spring/Springboot
    - Lombok
-   - MySQL/H2 (both versions are present)
+   - MySQL/H2 (both versions present)
+   - log4j2/slf4j
 
 2) Create project structure according to REST principles:
    - Controller layer
@@ -27,8 +28,9 @@
    - DTO (data transition object) layer
        - classes *ShortenUrlRequest* and *ShortenUrlResponse*
          
-4) Add Unit tests and logs
+4) Add Unit tests for Service methods.
 
 **PROSPECTS / TODO / Project Scalability**
+- add application logs using slf4j
 - increase security by using additional encryption
 - add flexible shortened URL sizes (from 4 to 8, for example - depends). At the moment it's constant and equal to 6.
