@@ -25,7 +25,7 @@
    - **DAO (data access object) layer**:
        - class *UrlEntity* covered by Lombok annotations. Contains ID, initial link and shortened link fields.
        - interface *UrlShortenerRepository* extendinf JpaRepository features
-   - D**TO (data transition object) layer**:
+   - **DTO (data transition object) layer**:
        - classes *ShortenUrlRequest* and *ShortenUrlResponse*
          
 4) Add Unit tests for Service methods.
