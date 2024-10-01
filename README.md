@@ -22,10 +22,10 @@
    - **Service layer**:
      - class *UrlShortenerService* that allows us to transform URLs and restore them
      - contains sub-package with a single exception *UrlNotFoundException*
-   - DAO (data access object) layer
+   - **DAO (data access object) layer**:
        - class *UrlEntity* covered by Lombok annotations. Contains ID, initial link and shortened link fields.
        - interface *UrlShortenerRepository* extendinf JpaRepository features
-   - DTO (data transition object) layer
+   - D**TO (data transition object) layer**:
        - classes *ShortenUrlRequest* and *ShortenUrlResponse*
          
 4) Add Unit tests for Service methods.
